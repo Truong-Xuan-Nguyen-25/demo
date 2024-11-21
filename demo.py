@@ -51,6 +51,7 @@ plt.title('Avg Session Duration')
 plt.xlabel('Traffic Source')
 plt.ylabel = ('Average duration (in secs)')
 st.pyplot(fig2)
+st.markdown('với Organic, Referral và Social là những nguồn hiệu quả nhất trong việc giữ chân người dùng. Điều này có thể ảnh hưởng đến chiến lược marketing và tối ưu hóa nội dung của website.')
 
 
 st.subheader('Mối quan hệ giữa tỷ lệ thoát và thời lượng phiên')
@@ -59,6 +60,8 @@ fig3 = plt.figure(figsize = (10, 6))
 sns.regplot(x = 'Session Duration', y = 'Bounce Rate', data = df)
 plt.title('Session Duration vs Bounce Rate')
 st.pyplot(fig3)
+st.markdown('Tỷ lệ thoát có xu hướng giảm khi thời gian phiên tăng. Điều này cho thấy rằng người dùng ở lại lâu hơn trên trang thì khả năng thoát của họ cũng thấp hơn.')
+
 
 st.subheader('Phân phối lượt xem trang')
 #Phân phối lượt xem trang
