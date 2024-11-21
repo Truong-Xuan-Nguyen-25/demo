@@ -20,7 +20,7 @@ st.markdown("Tỷ lệ chuyển đổi : Tỷ lệ phần trăm khách truy cậ
 
 st.header('2.Đọc dữ liệu')
 # Đọc dữ liệu từ file CSV
-df = pd.read_csv('C:/Users/Xuan Truong/Documents/Truc quan hoa DL/Project_B/website_wata.csv')
+df = pd.read_csv('website_wata.csv')
 
 # Hiển thị thông tin DataFrame
 st.write(df.info())
