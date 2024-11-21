@@ -69,7 +69,7 @@ fig4 = plt.figure(figsize = (10, 6))
 sns.histplot(df['Page Views'], bins = 15, kde = True)
 plt.title('Distribution of page Views')
 st.pyplot(fig4)
-st.markdown('Dựa trên biểu đồ trên, các phiên của người dùng chủ yếu kéo dài trong 1 phút và giảm dần trong 20 phút. Biểu đồ thể hiện sự khác biệt từng phút, nhấn mạnh rằng các phiên có xu hướng ngắn hơn và tần suất giảm đáng kể khi thời lượng phiên tăng lên.')
+st.markdown('Dựa trên biểu đồ trên, tần suất xem trang mỗi phiên chiếm ưu thế trong khoảng từ 4 đến 5. Xu hướng này cho thấy hai giá trị này phổ biến nhất đối với người dùng, cho thấy một phiên thông thường bao gồm việc điều hướng qua 4 đến 5 trang')
 
 #Tần suất thời gian trên trang
 st.subheader('Tần suất thời gian trên trang')
