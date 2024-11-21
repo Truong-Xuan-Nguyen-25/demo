@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.title('Lưu Lượng Truy Cập Trang Web')
-st.image('C:/Users/Xuan Truong/Documents/Truc quan hoa DL/Project_B/dataset-thumbnail.jpg',width=500)
 form = st.form('information_key')
 st.header('1.Giới thiệu')
 st.subheader('Tổng quan về dữ liệu')
